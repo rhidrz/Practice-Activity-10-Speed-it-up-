@@ -6,16 +6,16 @@
 #' @importFrom stringr str_detect str_to_title
 #' @export
 #find_poke <- function(poke_name) {
-  dat <- load_data()
-
-  poke_name <- str_to_title(poke_name)
-
-  dat |>
-    filter(str_detect(name, poke_name)) |>
-    select(name, flavorText) |>
-    distinct()
-
-}
+#  dat <- load_data()
+#
+#  poke_name <- str_to_title(poke_name)
+#
+#  dat |>
+#    filter(str_detect(name, poke_name)) |>
+#    select(name, flavorText) |>
+#    distinct()
+#
+#}
 
 
 find_poke <- function(poke_name) {
