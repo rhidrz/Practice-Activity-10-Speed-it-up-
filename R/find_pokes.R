@@ -32,19 +32,19 @@ find_poke <- function(poke_name) {
 #' @export
 #find_many_pokes <- function(poke_names) {
 
-  result <- dplyr::tibble()
+#  result <- dplyr::tibble()
 
-  for (poke_name in poke_names) {
+#  for (poke_name in poke_names) {
 
-    temp <- find_poke(poke_name)
+#    temp <- find_poke(poke_name)
 
-    result <- rbind(result, temp)
+#    result <- rbind(result, temp)
 
-  }
+#  }
 
-  return(result)
+#  return(result)
 
-}
+#}
 
 
 
